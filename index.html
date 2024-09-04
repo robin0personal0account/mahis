@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahi's Period Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌸 Mahi's Period Tracker 🌸</h1>
+        <div id="timer"></div>
+        <div class="day-buttons">
+            <button onclick="showDay(0)">Day 1</button>
+            <button onclick="showDay(1)">Day 2</button>
+            <button onclick="showDay(2)">Day 3</button>
+            <button onclick="showDay(3)">Day 4</button>
+        </div>
+        <div id="activities">
+            <h2>📝 Activities for Today</h2>
+            <ul id="activity-list"></ul>
+            <div id="motivational-text" style="transition: opacity 0.5s; margin-top: 20px; font-size: 18px; color: #ff69b4;"></div>
+            <p id="anime-suggestion" style="margin-top: 20px;"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
